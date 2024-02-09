@@ -1,0 +1,15 @@
+micronaut:
+  application:
+    name: kafkaToAerospike
+aerospike:
+  host: 127.0.0.1
+  port: 3000
+  namespace:  test
+netty:
+  default:
+    allocator:
+      max-order: 3
+kafka:
+  bootstrap:
+    servers: localhost:9092
+timezone : "IST"
